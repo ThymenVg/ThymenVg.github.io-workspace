@@ -1,5 +1,5 @@
 const id = "text";
-repeat(0, ["Lies De Backer "], [0, 128, 4096, 64]) // delays: [textDelay, typeDelay, beforeEraseDelay, eraseDelay]
+repeat(0, ["Lies De Backer5 "], [0, 128, 4096, 64]) // delays: [textDelay, typeDelay, beforeEraseDelay, eraseDelay]
 
 
 async function repeat(repeatDelay = 0, texts, delays) { // delays: [textDelay, typeDelay, beforeEraseDelay, eraseDelay]
