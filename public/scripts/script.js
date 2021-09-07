@@ -1,5 +1,5 @@
 const id = "text";
-repeat(0, ["I Dinow You", "I do care", "I'm so sorry"], [0, 128, 4096, 64]) // delays: [textDelay, typeDelay, beforeEraseDelay, eraseDelay]
+repeat(0, ["IDY"], [0, 128, 4096, 64]) // delays: [textDelay, typeDelay, beforeEraseDelay, eraseDelay]
 
 
 async function repeat(repeatDelay = 0, texts, delays) { // delays: [textDelay, typeDelay, beforeEraseDelay, eraseDelay]
