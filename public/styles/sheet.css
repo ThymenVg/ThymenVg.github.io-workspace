@@ -1,9 +1,9 @@
 :root {
-    --background-color: #000000;
+    --background-color: #00000000;
     --text-color: #ffffff;
     --text-color-highlighted: #51d1ff
     ;
-    --blur-amount: 3px;
+    --blur-amount: 0px;
 }
 
 html {
