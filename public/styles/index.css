@@ -1,8 +1,9 @@
 :root {
-    --background-color: #000000;
+    --background-color: #00000000;
     --text-color: #ffffff;
-    --text-color-highlighted: #1878d1;
-    --blur-amount: 2px;
+    --text-color-highlighted: #51d1ff
+    ;
+    --blur-amount: 0px;
 }
 
 html {
@@ -13,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--background-color);
+    text-shadow: 1px 1px #000000;
     font-family: RobotoMono-Light;
     -moz-user-select: none; 
     -webkit-user-select: none; 
@@ -93,31 +95,10 @@ h1:hover {
     animation: none;
 }
 
-.spacer {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 @keyframes blink {
     0% { background-color: var(--text-color); }
     49% { background-color: var(--text-color); }
     50% { background-color: transparent; }
     99% { background-color: transparent; }
     100% { background-color: var(--text-color); }
-}
-
-.top {
-    background-image: url('/assets/Top.svg');
-    background-color: black;
-}
-
-.bottom {
-    background-image: url('/assets/Bottom.svg');
-}
-
-.pink {
-    background: #c11cff;
 }
