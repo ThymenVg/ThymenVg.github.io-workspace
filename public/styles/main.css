@@ -1,9 +1,8 @@
 :root {
     --background-color: #000000;
-    --text-color: #ffffff;
-    --text-color-highlighted: #51d1ff
-    ;
-    --blur-amount: 0px;
+    --text-color: #000000;
+    --text-color-highlighted: #1878d1;
+    --blur-amount: 8px;
 }
 
 html {
@@ -14,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--background-color);
-    text-shadow: 1px 1px #000000;
+    /* text-shadow: 1px 1px #ffffff; */
     font-family: RobotoMono-Light;
     -moz-user-select: none; 
     -webkit-user-select: none; 
@@ -27,6 +26,7 @@ body {
 }
 
 a {
+    font-size: 10pt;
     text-decoration: none;
     color: var(--text-color);
     transition: all .25s;
@@ -75,6 +75,14 @@ h1:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .background_image {
