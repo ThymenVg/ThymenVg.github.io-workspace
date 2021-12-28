@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioMedical</title>
+</head>
+<body>
+    <div>
+        <h1>Musculus</h1>
+        <h3>Klik om kader weer te geven...</h3>
+ 
+        <!-- img element without src attribute -->
+        <img id="image" src="" />
+    </div>
+    <img src="/public/images/1.png">
+    <button type="button"
+        onclick="show()" id="btnID">
+        Antwoorden
+    </button>
+    <button type="button"
+        onclick="new()" id="btnID">
+        Nieuwe Foto
+    </button>
+ 
+    <script>
+        function show() {
+ 
+            /* Get image and change value
+            of src attribute */
+            let image = document.getElementById("image");
+ 
+            image.src =
+"/public/images/a1.png"
+ 
+            document.getElementById("btnID")
+                    .style.display = "none";
+        }
+    </script>
+</body>
+</html>
