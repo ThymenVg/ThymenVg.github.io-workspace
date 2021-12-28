@@ -25,7 +25,7 @@
     </div>
  
     <script>
-        const num = Math.floor(Math.random() * 6) + 1
+        const num = Math.floor(Math.random() * 8) + 1
 
         if (num == 1){
             let image = document.getElementById("img2");
@@ -46,6 +46,18 @@
         if (num == 5){
             let image = document.getElementById("img2");
             image.src = "/images/5.png"
+        }
+        if (num == 6){
+            let image = document.getElementById("img2");
+            image.src = "/images/6.png"
+        }
+        if (num == 7){
+            let image = document.getElementById("img2");
+            image.src = "/images/7.png"
+        }
+        if (num == 8){
+            let image = document.getElementById("img2");
+            image.src = "/images/8.png"
         }
 
         function show() {
@@ -70,6 +82,18 @@
          if (num == 5) {
             let image = document.getElementById("image");
             image.src = "/images/a5.png"
+         }
+         if (num == 6) {
+            let image = document.getElementById("image");
+            image.src = "/images/a6.png"
+         }
+         if (num == 7) {
+            let image = document.getElementById("image");
+            image.src = "/images/a7.png"
+         }
+         if (num == 8) {
+            let image = document.getElementById("image");
+            image.src = "/images/a8.png"
          }
             document.getElementById("btnID")
                     .style.display = "none";
