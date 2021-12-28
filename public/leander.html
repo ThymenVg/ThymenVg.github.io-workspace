@@ -13,6 +13,7 @@
  
         <!-- img element without src attribute -->
         <img id="image" src="" />
+        <img id="img2" src="" />
     </div>
     <img src="/images/1.png">
     <button type="button"
@@ -26,6 +27,11 @@
  
     <script>
         const num = Math.floor(Math.random() * 6) + 1
+
+        if (num == 1){
+            let image = document.getElementById("image");
+            image.src = "/images/1.png"
+        }
 
         function show() {
             /* Get image and change value
